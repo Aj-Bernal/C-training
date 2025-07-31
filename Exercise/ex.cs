@@ -1,4 +1,16 @@
-// initialize variables - graded assignments 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
+
+namespace Exercise1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {// initialize variables - graded assignments 
 int currentAssignments = 5;
 
 int sophia1 = 93;
@@ -49,4 +61,6 @@ Console.WriteLine("Sophia Average: " + sophiaAverage + " A");
 Console.WriteLine("Nicolas Average: " + nicolasAverage + " B");
 Console.WriteLine("Zahriha Average: " + zahrihaAverage + " B");
 Console.WriteLine("Jeong Average: " + jeongAverage + " A");
-
+        }
+    }    
+}
