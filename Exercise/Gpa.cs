@@ -1,3 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
+
+namespace Gpa
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
 string studentName = "Sophia Johnson";
 string courseName1 = "English 101";
 string courseName2 = "Algebra 101";
@@ -41,3 +54,6 @@ Console.WriteLine(courseName4 + "\t" + grade4 + "\t\t" + creditHours4 );
 Console.WriteLine(courseName5+ "\t\t" + grade5 + "\t\t" + creditHours5 + "\n");
 
 Console.WriteLine($"Final GPA\t\t\t{leadingDigit}.{firstDigit}{secondDigit}" );
+        }
+    }
+}
