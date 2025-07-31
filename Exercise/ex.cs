@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Exercise1
+namespace ex
 {
     internal class Program
     {
