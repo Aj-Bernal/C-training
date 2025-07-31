@@ -1,4 +1,17 @@
-int value = 1;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
+
+namespace Exercise1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+          int value = 1;
 
 value = value + 1;
 Console.WriteLine("First increment: " + value); // 2
@@ -17,3 +30,7 @@ Console.WriteLine("Second decrement: " + value); // 2
 
 value--;
 Console.WriteLine("Third increment: " + value); //1
+        }
+    }
+}  
+      
