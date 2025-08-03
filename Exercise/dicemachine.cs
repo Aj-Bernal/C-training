@@ -1,4 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
 
+namespace dicemachine
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
 using System.Data.Common;
 
 Random dice = new Random();
@@ -30,3 +42,6 @@ if (total >= 15)
     System.Console.WriteLine("You Lose");
 }
     System.Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+        }
+    }
+}
